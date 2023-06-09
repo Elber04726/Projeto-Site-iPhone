@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 20px;
+}
+.caixa-azul{
+    display: flex;
+}
+
+#icone{
+    width: 250px;
+    position: relative;
+    left: 380px;
+    top: 60px;
+    z-index: 1;
+    
+}
+
+.texto{
+    margin-top: 50px;
+}
+
+.texto1{
+    margin-bottom: 30px;
+}
+
+.texto2{
+    font-size: 20px;   
+}
+
+button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(42, 42, 251);
+    color: white;
+    cursor: pointer;
+}
+
+.texto3{
+    margin: 10px 0;
+}
+
+.texto4{
+    font-size: 18px;
+}
+
+.botao{
+    width: 20px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.cor-azul{
+    background-color: rgb(125, 125, 245);
+    
+}
+
+.cor-amarelo{
+    background-color: yellow;
+}
+
+.cor-preto{
+    background-color: black;
+}
+
+.cor-vermelho{
+    background-color: red;
+}
+
+.cor-roxo{
+    background-color: rgb(170, 32, 239);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    margin: 20px 50px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#imagem{
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    width: 350px;
+    height: 300px;
+}
+
+.logo{
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
